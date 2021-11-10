@@ -1,0 +1,56 @@
+#profil{
+    padding: 1rem;
+    font-size: 2rem; 
+ }
+ 
+ body{
+     background-color: #f0f0f0;
+ }
+ 
+ textarea{
+     position: static;
+ }
+ 
+ img{
+     display: relative;
+     position: fixed;
+     width: 200px;
+     padding: 5px 5px 15px 5px;
+     margin: 5px 5px 15px 5px;
+     border: 1rem solid rgb(83, 85, 90);
+     border-radius: 0.5cm;
+     background-color: hsl(258, 20%, 70%);
+ }
+ 
+ 
+ @media (max-width: 1000px){
+     h3{
+         font-size: 3rem;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         background-color: rgb(255, 137, 137);
+     }
+ }
+ 
+ @media (max-width: 600px){
+       h3{
+           color: rgb(44, 71, 3);
+           background-color: rgb(137, 145, 255);
+       }
+ }
+ .bio{
+     padding: 20px;
+     vertical-align: top; padding-right: 150px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .pendidikan{
+     padding: 20px;
+     vertical-align: top; padding-right: 150px;
+     font-family: monospace;
+ }
+ 
+ .contact{
+         padding: 2rem;
+         vertical-align: top; padding-right: 5rem;
+         font-family: 'Times New Roman', Times, serif;
+ } 
